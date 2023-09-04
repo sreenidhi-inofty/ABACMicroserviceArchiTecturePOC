@@ -1,9 +1,7 @@
-﻿using AuthorizationService;
-using DotNetCoreAPIMicroservice_POC.Models;
+﻿using DotNetCoreAPIMicroservice_POC.Models;
 using DotNetCoreAPIMicroservice_POC.Repository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ProductMicroservice.Utils;
 using System.Linq;
 using System.Transactions;
 

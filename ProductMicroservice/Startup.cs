@@ -1,5 +1,4 @@
-﻿using AuthorizationService;
-using AuthorizationService.ProductPolicies;
+﻿using AuthorizationService.ProductPolicies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.AzureADB2C.UI;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -8,19 +7,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Controllers;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using ProductMicroservice.Controllers;
-using Swashbuckle.AspNetCore.Swagger;
-using System;
-using System.IO;
-using System.Linq;
-using System.Reflection;
 using System.Text;
 
 namespace DotNetCoreAPIMicroservice_POC

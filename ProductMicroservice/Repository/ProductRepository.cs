@@ -1,7 +1,5 @@
 ﻿using DotNetCoreAPIMicroservice_POC.Models;
-using Microsoft.EntityFrameworkCore;
 using ProductMicroservice.DataStore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
